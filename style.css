@@ -1,0 +1,110 @@
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+p {
+    display: inline-block;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+.deletePost {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    transform: translateY(-50%);
+    right: 0;
+    margin: auto;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    display: block;
+    padding-right: 5px;
+    z-index: 997;
+}
+.deletePost:hover {
+    cursor: pointer;
+}
+span {
+    font-weight: bold;
+}
+.MessageInput {
+    background-color: #1c1c1c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    margin-top: 1em;
+}
+.MessageInput input {
+    width: 80%;
+    outline: none;
+}
+body {
+    overflow-x: hidden;
+    background-color: #222222;
+    margin: 4em 0em;
+}
+.Greeting {
+    background-color: #222222;
+    color: white;
+    font-size: 1em;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+}
+
+.textCmnt {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.comment {
+    width: (100%-5px);
+    border: 1px white solid;
+    border-radius: 5px;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    display: block;
+    margin: 10px;
+}
+.yourComment {
+    background-color: #444444;
+}
+#comments {
+    margin: 5px;
+    overflow: hidden;
+}
+#msg,
+#submit {
+    margin: 15px;
+    padding: 5px 10px;
+}
+#countDown {
+    color: white;
+}
