@@ -24,4 +24,4 @@ This is a simple real time chat application built with php and mysql. It uses aj
 
 # License
 
-MIT License
+[![License](https://img.shields.io/github/license/itzaymvn/RealTimeChat-PHP?style=for-the-badge)]([https://github.com/itzAymvn/Aymvn.me/blob/master/LICENSE](https://raw.githubusercontent.com/itzAymvn/RealTimeChat-PHP/main/LICENSE))
