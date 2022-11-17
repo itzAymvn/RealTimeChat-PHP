@@ -5,14 +5,18 @@ This is a simple real time chat application built with php and mysql. It uses aj
 # How to use
 
 1. Use this sql to create the database:
+   ```sql
    CREATE DATABASE RealTimeChat;
+   ```
 
 2. Use this sql to create the table:
+  ```sql
    CREATE TABLE messages (
-   id int PRIMARY KEY AUTO_INCREMENT,
-   author varchar(20) not null,
-   message varchar(100) not null
+      id int PRIMARY KEY AUTO_INCREMENT,
+      author varchar(20) not null,
+      message varchar(100) not null
    );
+  ```
 
 3. Change the database credentials in the file `./MessagesActions/dbh.php`
 
