@@ -10,13 +10,13 @@ This is a simple real time chat application built with php and mysql. It uses aj
    ```
 
 2. Use this sql to create the table:
-  ```sql
+   ```sql
    CREATE TABLE messages (
       id int PRIMARY KEY AUTO_INCREMENT,
       author varchar(20) not null,
       message varchar(100) not null
    );
-  ```
+   ```
 
 3. Change the database credentials in the file `./MessagesActions/dbh.php`
 
